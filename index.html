@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="eng">
 
 <head>
   <meta charset="utf-8">
@@ -16,8 +16,7 @@
   <!--== Google Fonts ==-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap"
     rel="stylesheet">
 
   <!--== Bootstrap CSS ==-->
@@ -152,34 +151,34 @@
       <!--== End Hero Area Wrapper ==-->
 
       <section class="home-slider-area">
-        <div class="swiper home-slider-container default-slider-container">
+        <!-- <div class="swiper home-slider-container default-slider-container">
           <div class="swiper-wrapper home-slider-wrapper slider-default">
 
-            <!-- Banner 1 for Large Screens -->
+           
             <div class="swiper-slide d-none d-lg-block">
-              <div class="slider-content-area" data-bg-img="assets/img/Product-Banner.jpg"></div>
+              <div class="slider-content-area" data-bg-img="assets/img/video.mp4"></div>
             </div>
 
-            <!-- Banner 1 for Small Screens -->
+         
             <div class="swiper-slide d-block d-lg-none">
               <div class="slider-content-area" data-bg-img="assets/img/Banner-1-mobile-view.png"></div>
             </div>
 
-            <!-- Banner 2 (Common for all screen sizes) -->
+          
             <div class="swiper-slide d-none d-lg-block">
 
               <div class="slider-content-area" data-bg-img="assets/img/Banner-1.jpg"></div>
             </div>
-            <!-- Banner 1 for Small Screens -->
+         
             <div class="swiper-slide d-block d-lg-none">
               <div class="slider-content-area" data-bg-img="assets/img/Mobile-app-banner-1.jpg"></div>
             </div>
 
 
-          </div>
+          </div> -->
 
           <!--== Add Swiper Arrows ==-->
-          <div class="swiper-btn-wrap">
+          <!-- <div class="swiper-btn-wrap">
       <div class="swiper-btn-prev">
         <i class="pe-7s-angle-left"></i>
       </div>
@@ -187,8 +186,40 @@
         <i class="pe-7s-angle-right"></i>
       </div>
     </div>
-        </div>
+        </div> -->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video class="d-block w-100" autoplay muted loop playsinline>
+        <source src="assets/img/video.mp4" type="video/mp4">
+       
+      </video>
+    </div>    
+  </div>
+</div>
+
       </section>
+
+      <div class="container py-4">
+  <!-- Main Banner Image -->
+  <div class="text-center">
+    <img src="assets/img/bottom-banner.jpg" alt="Veterinary Feed Supplements" class="img-banner">
+    <!-- Replace src path with your actual image path -->
+  </div>
+
+  <!-- Veterinary Categories -->
+  <div class="row text-center">
+    <div class="col-md-6 product-section">     
+      <img src="assets/img/1.png" alt="Veterinary Drug Syrup">
+    </div>
+    <div class="col-md-6 product-section">     
+      <img src="assets/img/2.png" alt="Veterinary Bolus">
+    </div>
+    
+  </div>
+</div>
+
 
 
       <!--== Start Product Area Wrapper ==-->
@@ -365,7 +396,7 @@
               <!--== Start Product Category Item ==-->
               <div class="product-category-item">
                 <div class="thumb">
-                  <img src="assets/img/Our Category Images/Veterinary Soap.jpg" width="200" height="200"
+                  <img src="assets/img/Our Category Images/Veterinary-Soap.jpg" width="200" height="200"
                     alt="Image-HasTech">
                 </div>
                 <div class="content">
@@ -393,7 +424,7 @@
               <!--== Start Product Category Item ==-->
               <div class="product-category-item">
                 <div class="thumb">
-                  <img src="assets/img/Our Category Images/Veterinary Feed Supplements.jpg" width="200" height="200"
+                  <img src="assets/img/Our Category Images/Veterinary-Feed-Supplements.jpg" width="200" height="200"
                     alt="Image-HasTech">
                 </div>
                 <div class="content">
@@ -407,7 +438,7 @@
               <!--== Start Product Category Item ==-->
               <div class="product-category-item">
                 <div class="thumb">
-                  <img src="assets/img/Our Category Images/Veterinary Injection.jpg" width="200" height="200"
+                  <img src="assets/img/Our Category Images/cow Liquid.jpg" width="200" height="200"
                     alt="Image-HasTech">
                 </div>
                 <div class="content">
@@ -420,7 +451,7 @@
               <!--== Start Product Category Item ==-->
               <div class="product-category-item">
                 <div class="thumb">
-                  <img src="assets/img/Our Category Images/Veterinary Powder.jpg" width="200" height="200"
+                  <img src="assets/img/Our Category Images/Veterinary Bolus.jpg" width="200" height="200"
                     alt="Image-HasTech">
                 </div>
                 <div class="content">
@@ -433,7 +464,7 @@
               <!--== Start Product Category Item ==-->
               <div class="product-category-item">
                 <div class="thumb">
-                  <img src="assets/img/Our Category Images/Veterinary Soap.jpg" width="200" height="200"
+                  <img src="assets/img/Our Category Images/Veterinary Pesticide.jpg" width="200" height="200"
                     alt="Image-HasTech">
                 </div>
                 <div class="content">
@@ -455,7 +486,7 @@
           <div class="row g-4">
             <!-- Sidebar -->
             <div class="col-md-3">
-              <div class="sidebar">
+              <div class="sidebar one">
 
                 <button class="btn btn-know-more">Know More</button>
                 <p class="mt-3"><strong>Contact us:</strong><br>+91-9805060580</p>
@@ -470,49 +501,49 @@
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/Amoxicillin 3 gm Sulbactam 1.5gm Veterinary Injection.jpg" class="card-img-top" alt="Chlorheal">
-                    <div class="card-name text-center">Chlorheal</div>
+                    <div class="card-name text-center">Uniray Mox-S</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/CEFTRIAXONE 3mg Injection for Veterinary.jpg" class="card-img-top" alt="Meglucan">
-                    <div class="card-name text-center">Meglucan</div>
+                    <div class="card-name text-center">Uniceft-3gm</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/Meloxicam Paracetamol Injection For Veterinary.jpg" class="card-img-top" alt="Melocan-Plus">
-                    <div class="card-name text-center">Melocan-Plus</div>
+                    <div class="card-name text-center">Vetlox-P</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/Ivermectin Benzyl Alcohol Injection For Veterinary.jpg" class="card-img-top" alt="Fortinac">
-                    <div class="card-name text-center">Fortinac</div>
+                    <div class="card-name text-center">Raymec</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/ENROBERIENT.jpg" class="card-img-top" alt="Cantogest 750">
-                    <div class="card-name text-center">Cantogest 750</div>
+                    <div class="card-name text-center">Enroberient</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/BERIENT-PLEX.jpg" class="card-img-top" alt="Acemec">
-                    <div class="card-name text-center">Acemec</div>
+                    <div class="card-name text-center">Berient Plex</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/BOVIBERIENT-ADE.jpg" class="card-img-top" alt="Paranime">
-                    <div class="card-name text-center">Paranime</div>
+                    <div class="card-name text-center">Boviberient-ADE</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/BARENT PROGEN-750.jpg" class="card-img-top" alt="Polvet H">
-                    <div class="card-name text-center">Polvet H</div>
+                    <div class="card-name text-center">Barent Progen 750</div>
                   </div>
                 </div>
               </div>
@@ -592,49 +623,49 @@
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/popular1.webp" class="card-img-top" alt="Chlorheal">
-                    <div class="card-name text-center">Chlorheal</div>
+                    <div class="card-name text-center">Unicool</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/popular2.jpg" class="card-img-top" alt="Meglucan">
-                    <div class="card-name text-center">Meglucan</div>
+                    <div class="card-name text-center">Uniplex</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/popular3.webp" class="card-img-top" alt="Melocan-Plus">
-                    <div class="card-name text-center">Melocan-Plus</div>
+                    <div class="card-name text-center">Ray-Pro</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/popular4.jpg" class="card-img-top" alt="Fortinac">
-                    <div class="card-name text-center">Fortinac</div>
+                    <div class="card-name text-center">Livray</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/popular5.jpg" class="card-img-top" alt="Cantogest 750">
-                    <div class="card-name text-center">Cantogest 750</div>
+                    <div class="card-name text-center">Vetlox-P</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/popular6.jpg" class="card-img-top" alt="Acemec">
-                    <div class="card-name text-center">Acemec</div>
+                    <div class="card-name text-center">Rep Sure</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/popular7.jpg" class="card-img-top" alt="Paranime">
-                    <div class="card-name text-center">Paranime</div>
+                    <div class="card-name text-center">Pachak Enray</div>
                   </div>
                 </div>
                 <div class="col p-2">
                   <div class="card product-card h-100">
                     <img src="assets/img/product/popular8.jpg" class="card-img-top" alt="Polvet H">
-                    <div class="card-name text-center">Polvet H</div>
+                    <div class="card-name text-center">Fat Ray Granules</div>
                   </div>
                 </div>
               </div>
@@ -652,16 +683,16 @@
       </section>
 
 
-      <div class="enquiry-section ">
+      <div class="enquiry-section second ">
         <div class="container">
         
 <div class="row">
             <div class="col-md-3">
-              <div class="enquiry-title text-light">Enquiry Now</div>
+              <!-- <div class="enquiry-title text-light">Enquiry Now</div> -->
               </div>
             
             <!-- <div class="divider"></div> -->
-           <div class="col-md-9 d-flex aligin-item-center">
+           <!-- <div class="col-md-9 d-flex aligin-item-center">
               <form class="d-flex flex-wrap gap-2 align-items-center">
                 <input type="text" class=" col form-control" placeholder="Your name" required="">
                 <input type="text" class=" col form-control" placeholder="Your contact" required="">
@@ -669,155 +700,13 @@
                 <input type="text" class=" col form-control" placeholder="Your message" required="">
                 <button type="submit" class="btn btn-submit">Submit Inquiry</button>
               </form>
-          </div>
+          </div> -->
 
           </div>
         </div>
       </div>
       <!--== Start Product Area Wrapper ==-->
-      <section class="product-area product-default-area py-5" id="product">
-        <div class="container pt--0">
-          <div class="row">
-            <div class="col-12">
-              <div class="section-title mb-45 mb-sm-20 shape-center text-center">
-                <h5 class="sub-title">Best PRODUCT</h5>
-                <h2 class="title">New Collection</h2>
-              </div>
-              <div class="isotope-filter">
-                <button class="active" data-filter="*">All Product</button>
-                <button data-filter=".filter_new">Veterinary Spray</button>
-                <button data-filter=".filter_best_sellers">Veterinary Powder</button>
-                <button data-filter=".filter_featured">Veterinary Bolus</button>
-                <button data-filter=".filter_on_sall">Veterinary Injection</button>
-              </div>
-            </div>
-          </div>
-          <div class="row isotope-grid">
-            <div class="col-sm-6 col-lg-3 isotope-item filter_new">
-              <!--== Start Product Item ==-->
-              <div class="product-item">
-                <div class="product-thumb">
-                  <img src="assets/img/product/product.jpg" width="270" height="320" alt="Image-HasTech">
-
-                </div>
-                <div class="product-info">
-                  <h4 class="title">WILDRAY-T SPRAY</h4>
-                </div>
-
-              </div>
-              <!--== End prPduct Item ==-->
-            </div>
-            <div class="col-sm-6 col-lg-3 isotope-item filter_featured">
-              <!--== Start Product Item ==-->
-              <div class="product-item">
-                <div class="product-thumb">
-
-                  <img src="assets/img/product/product-1.jpg" width="270" height="320" alt="Image-HasTech">
-                  </a>
-                </div>
-                <div class="product-info">
-                  <h4 class="title">BERIENT-FI</h4>
-
-                </div>
-
-              </div>
-              <!--== End prPduct Item ==-->
-            </div>
-            <div class="col-sm-6 col-lg-3 isotope-item filter_new">
-              <!--== Start Product Item ==-->
-              <div class="product-item">
-                <div class="product-thumb">
-
-                  <img src="assets/img/product/product-2.jpg" width="270" height="320" alt="Image-HasTech">
-                  </a>
-                </div>
-                <div class="product-info">
-                  <h4 class="title">UNIMAST SPRAY</h4>
-
-                </div>
-
-              </div>
-              <!--== End prPduct Item ==-->
-            </div>
-            <div class="col-sm-6 col-lg-3 isotope-item filter_on_sall">
-              <!--== Start Product Item ==-->
-              <div class="product-item">
-                <div class="product-thumb">
-
-                  <img src="assets/img/product/product-add-1.jpg" width="270" height="320" alt="Image-HasTech">
-                  </a>
-                </div>
-                <div class="product-info">
-                  <h4 class="title">UNICEFT-3GM</h4>
-                </div>
-
-              </div>
-              <!--== End prPduct Item ==-->
-            </div>
-            <div class="col-sm-6 col-lg-3 isotope-item filter_best_sellers">
-              <!--== Start Product Item ==-->
-              <div class="product-item">
-                <div class="product-thumb">
-
-                  <img src="assets/img/product/product-all.jpg" width="270" height="320" alt="Image-HasTech">
-                  </a>
-                </div>
-                <div class="product-info">
-                  <h4 class="title">RAYGRAIN</h4>
-                </div>
-
-              </div>
-              <!--== End prPduct Item ==-->
-            </div>
-            <div class="col-sm-6 col-lg-3 isotope-item filter_best_sellers">
-              <!--== Start Product Item ==-->
-              <div class="product-item">
-                <div class="product-thumb">
-
-                  <img src="assets/img/product/products-all.jpg" width="270" height="320" alt="Image-HasTech">
-                  </a>
-                </div>
-                <div class="product-info">
-                  <h4 class="title">REP SURE</h4>
-
-                </div>
-
-              </div>
-              <!--== End prPduct Item ==-->
-            </div>
-            <div class="col-sm-6 col-lg-3 isotope-item filter_on_sall">
-              <!--== Start Product Item ==-->
-              <div class="product-item">
-                <div class="product-thumb">
-
-                  <img src="assets/img/product/products.webp" width="270" height="320" alt="Image-HasTech">
-                  </a>
-                </div>
-                <div class="product-info">
-                  <h4 class="title">UNICEFT-S</h4>
-                </div>
-
-              </div>
-              <!--== End prPduct Item ==-->
-            </div>
-            <div class="col-sm-6 col-lg-3 isotope-item filter_featured">
-              <!--== Start Product Item ==-->
-              <div class="product-item">
-                <div class="product-thumb">
-
-                  <img src="assets/img/product/uni-product.jpg" width="270" height="320" alt="Image-HasTech">
-                  </a>
-                </div>
-                <div class="product-info">
-                  <h4 class="title">BERIENT-NPS</h4>
-                </div>
-
-              </div>
-              <!--== End prPduct Item ==-->
-            </div>
-          </div>
-        </div>
-      </section>
+     
       <!--== End Product Area Wrapper ==-->
 <section class="blog-area blog-default-area py-5">
         <div class="container pt--0">

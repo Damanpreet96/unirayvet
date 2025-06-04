@@ -860,6 +860,26 @@ table p {
   .section-title .title {
     font-size: 30px;
   }
+.enquiry-section.second {
+    padding: 0 !important;
+    background-image: url(/Users/hp/Downloads/unirayvet/assets/img/bg-Image.jpg);
+    height: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain !important;
+    margin-bottom: 0px !important;
+    background-color: transparent;
+}
+section#choose-us {
+    padding-bottom: 0px !important;
+}
+  .sidebar, .sidebar.one {
+    display: none !important;
+  }
+.product-card img {
+    height: 220px !important;
+    object-fit: contain !important;
+}
   .slidein {
     display: none;
     position: fixed;
@@ -8265,7 +8285,20 @@ button#slide-btn {
     padding: 20px;
     text-align: center;
     border-radius: 8px;
-    background-image: url(/Users/hp/Downloads/unirayvet/assets/img/sidebar-img.jpg);
+    background-image: url(/Users/hp/Downloads/unirayvet/assets/img/sidebar-1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.sidebar.one {
+    background: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-image: url(/Users/hp/Downloads/unirayvet/assets/img/sidebar-2.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -8279,6 +8312,10 @@ button#slide-btn {
       margin-top: 10px;
       border-radius: 20px;
     }
+    p.mt-3 {
+    color: #fff;
+    font-size: 25px;
+}
     .card-name {
       background: #004aad;
       color: #fff;
@@ -8308,20 +8345,20 @@ button#slide-btn {
     font-size: 17px !important;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* ///////////////////////////////////////////////////////////////// ccccccccccccccccccccssssssssssssssssssssssssssssssssssssss///////////////////////////// */
 .enquiry-section {
     background-color: #0190f0;
 }
+.enquiry-section.second {
+    padding: 160px;
+    background-image: url(/Users/hp/Downloads/unirayvet/assets/img/bg-Image.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
 .enquiry-section form.d-flex.flex-wrap.gap-2.align-items-center {
     margin: 0;
 }
@@ -8349,3 +8386,20 @@ button#slide-btn {
     .btn-submit:hover {
     background-color: #6baf00;
 }
+
+
+
+    .product-section {     
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .product-section img {
+      width: 100%;
+      height: auto;
+    }
+    .img-banner {
+      border-radius: 10px;
+      margin-bottom: 30px;
+      width: 100%;
+    }

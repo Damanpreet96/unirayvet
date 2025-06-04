@@ -860,6 +860,17 @@ table p {
   .section-title .title {
     font-size: 30px;
   }
+  .slidein {
+    display: none;
+    position: fixed;
+    background: #f5f5f5;
+    width: 100% !important;
+    height: auto;
+    top: 20%;
+    right: 0;
+    padding: 40px 0 40px 40px;
+    z-index: 999;
+}
   .header-area.transparent {
     background-color: #fff;
     position: relative!important;
@@ -8178,7 +8189,7 @@ button#open:focus {
 /* Contact Form */
 form {
   display: block;
-  margin-top:50px;
+  margin-top:10px;
 }
 
 form input,
